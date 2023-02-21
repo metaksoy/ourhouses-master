@@ -1,0 +1,65 @@
+html {
+  width: auto;
+  height: auto;
+}
+body {
+  background-color: bisque;
+}
+.container {
+  font-family: "Zilla Slab", serif;
+  background-color: bisque;
+}
+
+h2 {
+  font-family: "Great Vibes", cursive;
+  font-size: 3rem;
+  text-align: center;
+  color: #ff6a23;
+}
+
+.btn-container {
+  background-color: #ff6a23;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  margin: 40px 0;
+  font-size: larger;
+  font-family: sans-serif;
+  padding: 5px;
+}
+.btn-item {
+  margin-left: 15px;
+}
+
+.photo {
+  width: 150px;
+  height: auto;
+  min-height: 200px;
+  object-fit: cover;
+  border: 0.25rem solid black;
+  border-radius: 10px;
+}
+
+.menu {
+  margin-top: 20px;
+}
+.menu-items {
+  display: flex;
+  margin: 20px 0;
+}
+.menu-info {
+  margin-left: 20px;
+  width: 100%;
+}
+.menu-title {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+
+.menu-text {
+  padding-top: 20px;
+}
+h4 {
+  color: #e00a00;
+}
